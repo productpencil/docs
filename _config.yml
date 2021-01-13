@@ -14,7 +14,7 @@ twitter_username: productpencil
 github_username:  productpencil
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
