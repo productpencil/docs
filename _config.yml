@@ -2,12 +2,12 @@ title: Product Pencil - Documentation
 email: productpencil@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation source for Product Pencil LLC 
-baseurl: "docs" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
   name: Juan David Figueroa
-  email: "figueroa.d.juan@gmail.com"
+  email: "productpencil@gmail.com"
 
 # repositiory: https://productpencil.github.io/
 twitter_username: productpencil
@@ -55,6 +55,67 @@ minima:
     # youtube_channel_name: CloudCannon
 
 copyright: Product Pencil LLC
+
+collections_dir: collections
+collections: 
+  access:
+  anger:
+  balance:
+  care: 
+  circumstance:
+  civility: 
+  clarity:
+  comfort:
+  competition:
+  courage: 
+  creativity:
+  culture:
+  determination:
+  ego:
+  empathy: 
+  equality:
+  excuses:
+  experience:
+  expression:
+  feminism:
+  fear:
+  flexibility: 
+  freedom:
+  focus:
+  grace:
+  hope:
+  honesty:
+  humility:
+  interconnected:
+  judgement:
+  justice: 
+  leadership:
+  lifestyle:
+  limitation:
+  love:
+  morals:
+  necessity:
+  open-mindedness:
+  optimism:
+  oppression:
+  perspective:
+  pleasure:
+  privilege :
+  purpose:
+  rationality:
+  reevaluate:
+  refuge:
+  risk:
+  self-control:
+  self-sabatoge:
+  selfless:
+  social-constructs:
+  success:
+  time:
+  tolerance:
+  value:
+  wealth:
+  wisdom:
 
 # include:
 
