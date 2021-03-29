@@ -1,7 +1,9 @@
-title: Product Pencil - Documentation
+sitename: Product Pencil
+title: Documentation
 email: productpencil@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation source for Product Pencil LLC 
+brand: pp-logo.svg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 

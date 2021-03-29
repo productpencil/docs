@@ -2,4 +2,129 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+@import "custom-bootstrap";
+// @import "font-awesome";
+// @import "minima";
+
+body {
+    background-color: #444;
+}
+.bg-black {
+    background-color: #333;
+}
+.bg-gray-100 {
+    background-color: #f8f9fa;
+}
+.bg-gray-200 {
+    background-color: #e9ecef;
+}
+.bg-gray-300 {
+    background-color: #dee2e6;
+}
+.bg-gray-400 {
+    background-color: #ced4da;
+}
+.bg-gray-500 {
+    background-color: #adb5bd;
+}
+.bg-gray-600 {
+    background-color: #6c757d;
+}
+.bg-gray-700 {
+    background-color: #495057;
+}
+.bg-gray-800 {
+    background-color: #343a40;
+}
+.bg-gray-900 {
+    background-color: #212529;
+}
+.text-inherit {
+    color: inherit;
+}
+
+.w-inherit {
+    width: inherit;
+}
+.w-25vmin {
+    width: 25vmin;
+}
+.w-50vmin {
+    width: 50vmin;
+}
+.w-90vmin {
+    width: 90vmin;
+}
+.w-100vmin {
+    width: 100vmin;
+}
+.max-w-xs {
+    max-width: 480px;
+}
+.max-w-sm {
+    max-width: 600px;
+}
+.max-w-md {
+    max-width: 960px;
+}
+.max-w-lg {
+    max-width: 1280px;
+}
+.max-w-xl {
+    max-width: 1920px;
+}
+
+
+.h-inherit {
+    height: inherit;
+}
+.h-25vmin {
+    height: 25vmin;
+}
+.h-50vmin {
+    height: 50vmin;
+}
+.h-75vmin {
+    height: 75vmin;
+}
+.h-90vmin {
+    height: 90vmin;
+}
+.h-100vmin {
+    height: 100vmin;
+}
+
+.min-h-25vmin {
+    min-height: 25vmin;
+}
+.min-h-50vmin {
+    min-height: 50vmin;
+}
+.min-h-75vmin {
+    min-height: 75vmin;
+}
+.min-h-90vmin {
+    min-height: 90vmin;
+}
+.min-h-100vmin {
+    min-height: 100vmin;
+}
+
+.max-h-25vmin {
+    max-height: 25vmin;
+}
+.max-h-50vmin {
+    max-height: 50vmin;
+}
+.max-h-75vmin {
+    max-height: 75vmin;
+}
+.max-h-90vmin {
+    max-height: 90vmin;
+}
+.max-h-100vmin {
+    max-height: 100vmin;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+

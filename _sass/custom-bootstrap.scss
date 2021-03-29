@@ -1,0 +1,63 @@
+
+/* import the necessary Bootstrap files */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+/* -------begin customization-------- */   
+
+/* simply assign the value */ 
+// Override default variables before the import
+// $body-bg: #f1f1f1;
+// font-family: 'Bebas Neue', cursive;
+// font-family: 'Dosis', sans-serif;
+// font-family: 'Quicksand', sans-serif;
+
+$font-family-sans-serif: 'Ubuntu', "Helvetica Neue", Arial, "Noto Sans", sans-serif !default;
+$font-family-base: $font-family-sans-serif !default;
+
+
+$pp-primary: #4178ff;
+// $pp-primary-light: "#459cab";
+// $pp-primary-dark: "#105c69";
+$pp-secondary: #2FF1A1;
+// $pp-secondary-light: #8c1f00;
+// $pp-secondary-dark: #8c1f00;
+$pp-success: #008C63;
+$pp-info: #7cc5d4;
+$pp-warning: #E3A10B;
+$pp-danger: #dc3545;
+$pp-light: #f8f9fa;
+$pp-dark: #343a40;
+$pp-black: #000000;
+
+/* or, use an existing variable */
+$theme-colors: (
+  primary:    $pp-primary,
+  secondary:  $pp-secondary,
+  success:    $pp-success,
+  info:       $pp-info,
+  warning:    $pp-warning,
+  danger:     $pp-danger,
+  light:      $pp-light,
+  dark:       $pp-dark
+);
+
+/* or, use an existing variable */
+$theme-colors: (
+  primary: $pp-primary,
+  secondary: $pp-secondary,
+  success:    $pp-success,
+  info:       $pp-info,
+  warning:    $pp-warning,
+  danger:     $pp-danger,
+  light:      $pp-light,
+  dark:       $pp-dark
+);
+
+// $body-bg:     $gray-200 !default;
+
+/* -------end customization-------- */  
+
+// Import Bootstrap and its default variables
+@import 'bootstrap/bootstrap.scss';
+// @import "bootstrap";
