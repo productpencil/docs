@@ -12,9 +12,10 @@
 // font-family: 'Dosis', sans-serif;
 // font-family: 'Quicksand', sans-serif;
 
-$font-family-sans-serif: 'Ubuntu', "Helvetica Neue", Arial, "Noto Sans", sans-serif !default;
-$font-family-base: $font-family-sans-serif !default;
+$pp-font-family-sans-serif: 'Raleway', "Helvetica Neue", Arial, "Noto Sans", sans-serif !default;
+// $font-family-base: $font-family-sans-serif !default;
 
+$font-family-base: var(--#{$variable-prefix}pp-font-family-sans-serif) !default;
 
 $pp-primary: #4178ff;
 // $pp-primary-light: "#459cab";
@@ -53,6 +54,7 @@ $theme-colors: (
   light:      $pp-light,
   dark:       $pp-dark
 );
+
 
 // $body-bg:     $gray-200 !default;
 

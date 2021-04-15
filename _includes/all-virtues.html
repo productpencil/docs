@@ -1,0 +1,34 @@
+
+<div class="accordion accordion-flush" id="collections_accordion">
+    
+    {% for collection in site.collections %}
+    
+    <div class="accordion-item">
+        
+            <button class="accordion-button collapsed list-group-item w-100 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#{{ collection.name }}" aria-expanded="false" aria-controls="{{ collection.name }}">
+                <div class="d-flex w-100">
+                    <h4 class="accordion-header flex-grow m-0" id="flush-headingOne">
+                        {{ collection.title }}
+                    </h4>
+                    <small class="text-right flex-fill">
+                        {{  collection.date | date_to_string: "ordinal", "US" }}
+                    </small>
+                </div>
+                <hr class="mx-0">
+                <div class="w-100">
+                    <h6 class="text-left py-2">
+                        {{ collection.summary }}
+                    </h6>
+                </div>            
+            </button>
+
+        <!-- <div id="{{ collection.name }}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#collections_accordion">
+            <div class="accordion-body p-3 bg-light">
+                {{ collection.content }}
+            </div>
+        </div> -->
+    </div>
+
+    {% endfor %}
+
+</div>
