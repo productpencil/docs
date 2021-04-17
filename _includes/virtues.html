@@ -1,0 +1,41 @@
+
+<!-- <div class="accordion accordion-flush" id="collections_accordion"> -->
+
+<div class="row row-cols-xs-12 row-cols-md-6 row-cols-lg-4 g-2">
+
+    {% for collection in site.collections %}
+    
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card border-light shadow-sm">
+                <!-- <div class="card-header">
+                    
+                </div> -->
+                <div class="card-body p-0">
+                    <div class="card-title px-3 pt-3">
+                        <h4 class="m-0" id="">
+                            {{ collection.title | capitalize }}
+                        </h4>
+                    </div>
+                    <!-- <div class="card-subheading p-3">
+                        <h4 class="m-0" id="">
+                            {{ collection.title | capitalize }}
+                        </h4>
+                    </div> -->
+                    <hr class="mx-0 text-black-50">
+                    <div class="card-text px-3">
+                        <h6 class="text-left py-2">
+                            {{ collection.summary }}
+                        </h6>
+                    </div> 
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted fw-light fs-6 flex-fill">
+                        <strong>Last Edited:</strong> {{  collection.date | date_to_string: "ordinal", "US" }}
+                    </span>
+                </div> 
+            </div> 
+        </div>         
+    
+    {% endfor %}
+
+</div>

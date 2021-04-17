@@ -1,6 +1,6 @@
 ---
 name: virtues-archive
-title: All Virtues
+title: Virtues
 subheading: An Archive of all of our digital ethics codes
 date: 2021/04/14
 layout: page
@@ -10,6 +10,8 @@ categories: virtues
 tags: all
 ---
 
+{%- include search.html -%}
+
 Latest compiled digital ethic codes as of {{ date }}
 
-{% include all-virtues.html %}
+{% include virtues.html %}

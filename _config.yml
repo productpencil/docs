@@ -64,63 +64,411 @@ copyright: Product Pencil LLC
 collections_dir: collections
 collections: 
   access:
+    name: access
+    title: access
+    date: 2021-04-17
+    summary: some excerpt....
+    order: 
+      - index.md
   anger:
+    name: anger
+    title: anger
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   balance:
-  care: 
+    name: balance
+    title: balance
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
+  care:
+    name: care
+    title: care
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md 
   circumstance:
-  civility: 
+    name: circumstance
+    title: circumstance
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
+  civility:
+    name: civility
+    title: civility
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md 
   clarity:
+    name: clarity
+    title: clarity
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   comfort:
+    name: comfort
+    title: comfort
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   competition:
-  courage: 
+    name: competition
+    title: competition
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
+  courage:
+    name: courage
+    title: courage
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md 
   creativity:
+    name: creativity
+    title: creativity
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   culture:
+    name: culture
+    title: culture
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   determination:
+    name: determination
+    title: determination
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   ego:
-  empathy: 
+    name: ego
+    title: ego
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
+  empathy:
+    name: empathy
+    title: empathy
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md 
   equality:
+    name: equality
+    title: equality
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   excuses:
+    name: excuses
+    title: excuses
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   experience:
+    name: experience
+    title: experience
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   expression:
+    name: expression
+    title: expression
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   feminism:
+    name: feminism
+    title: feminism
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   fear:
-  flexibility: 
+    name: fear
+    title: fear
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
+  flexibility:
+    name: flexibility
+    title: flexibility
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md 
   freedom:
+    name: freedom
+    title: freedom
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   focus:
+    name: focus
+    title: focus
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   grace:
+    name: grace
+    title: grace
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   hope:
+    name: hope
+    title: hope
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   honesty:
+    name: honesty
+    title: honesty
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   humility:
+    name: humility
+    title: humility
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   interconnected:
+    name: interconnected
+    title: interconnected
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   judgement:
-  justice: 
+    name: judgement
+    title: judgement
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
+  justice:
+    name: justice
+    title: justice
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md 
   leadership:
+    name: leadership
+    title: leadership
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   lifestyle:
+    name: lifestyle
+    title: lifestyle
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   limitation:
+    name: limitation
+    title: limitation
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   love:
+    name: love
+    title: love
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   morals:
+    name: morals
+    title: morals
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   necessity:
+    name: necessity
+    title: necessity
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   open-mindedness:
+    name: open-mindedness
+    title: open-mindedness
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   optimism:
+    name: optimism
+    title: optimism
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   oppression:
+    name: oppression
+    title: oppression
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   perspective:
+    name: perspective
+    title: perspective
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   pleasure:
+    name: pleasure
+    title: pleasure
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   privilege :
+    name: privilege 
+    title: privilege 
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   purpose:
+    name: purpose
+    title: purpose
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   rationality:
+    name: rationality
+    title: rationality
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   reevaluate:
+    name: reevaluate
+    title: reevaluate
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   refuge:
+    name: refuge
+    title: refuge
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   risk:
+    name: risk
+    title: risk
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   self-control:
+    name: self-control
+    title: self-control
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   self-sabatoge:
+    name: self-sabatoge
+    title: self-sabatoge
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   selfless:
+    name: selfless
+    title: selfless
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   social-constructs:
+    name: social-constructs
+    title: social-constructs
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   success:
+    name: success
+    title: success
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   time:
+    name: time
+    title: time
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   tolerance:
+    name: tolerance
+    title: tolerance
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   value:
+    name: value
+    title: value
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   wealth:
+    name: wealth
+    title: wealth
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
   wisdom:
+    name: wisdom
+    title: wisdom
+    date: 2021-04-17
+    summary: some excerpt...
+    order: 
+      - index.md
 
 # include:
 
